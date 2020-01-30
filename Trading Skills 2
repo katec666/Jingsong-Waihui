@@ -1,0 +1,32 @@
+Levarage: PnL according to the amount after leveraging, so not high Lev is the best. higher than 10* less than 100* is ok. 
+  leverage & Margin 
+
+进场entry、止损stop、目标goal:
+  1. more use "pending order" #https://wiki.mbalib.com/wiki/%E6%8C%82%E5%8D%95%E4%BA%A4%E6%98%93
+  2. buy limit（下降到x价位后会向上反弹，可以在x价位做多）: eg.
+                    1. mkt=1.3383 entry必须远离市价至少36点，so entry=1.3350；
+                    2. stop = last📈1.3320低一点 = 1.3310；
+                    3. goal = entry + （参考normal volatility range 120bps in EURUSD）= 1.3450
+  2. sell limit（上升到x价位后会向下反弹，可以在x价位做空）: eg.
+                    1. mkt= entry必须远离市价至少56点，so entry = rebound channel related last📈0.9147低一点 = 0.9145；
+                    2. stop = last📉0.9177高一点 = 0.9185；
+                    3. goal = entry -（参考normal volatility range 95bps in USDCHF）= 0.9050    
+                    4. P ： L= (goal-entry) :（stop-entry) = 2:1, 有效的。         
+                    
+PnL:eg.
+  EUR/USD: 1.2300/1.2302 ; 
+  EUR/USD: 1.2400/1.2402.
+      when做多: buy at 1.2302, sell at 1.2400;
+      when做空: sell at 1.2300, buy at 1.2402.
+      
+Gold, other Currency:
+  1. USDCAD: 依附USD
+  2. gold: 1) most currency depreciate, gold📈; 2) CBs loose, gold📈; 3) Gold remain high and volatile
+  3. EUR、GBP, CHF一致行很高；AUD与EUR有相关性；Gold与EUR，CHF相关性大，但市场risk-off时，Gold与USD，JPY相关性强。
+  
+ 
+
+
+
+                    
+
